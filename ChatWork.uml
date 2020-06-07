@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ChatWork</OriginalElement>
+  <nodes>
+    <node x="4.0" y="157.0">ChatWork.SimpleServer.ChatThread</node>
+    <node x="247.5" y="-109.0">ChatWork.Client</node>
+    <node x="249.0" y="133.0">ChatWork.Client.ClientThread</node>
+    <node x="-7.0" y="-109.0">ChatWork.SimpleServer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ChatWork.Client.ClientThread" target="ChatWork.Client">
+      <point x="0.0" y="-70.5" />
+      <point x="0.0" y="82.0" />
+    </edge>
+    <edge source="ChatWork.SimpleServer.ChatThread" target="ChatWork.SimpleServer">
+      <point x="0.0" y="-116.5" />
+      <point x="0.0" y="105.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="212.5" y="105.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
